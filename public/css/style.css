@@ -205,7 +205,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #fff;
 	font-size: 82px;
 	font-weight: 700;
-	text-transform: capitalize;
 	margin-top: 0;
 	margin-bottom: 10px;
 }

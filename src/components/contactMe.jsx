@@ -32,7 +32,7 @@ function Form() {
               e.preventDefault();
               
 
-              emailjs.sendForm(process.env.REACT_APP_NAME, process.env.REACT_APP_TEMPLATE , e.target, process.env.REACT_APP_API)
+              emailjs.sendForm("service_zi6pbxp", "ultimavisi" , e.target, "user_fhn8g8YAG2PQE9DaaDKH4")
               .then((result) => {
                 console.log(result.text);
                 return alert("a")
